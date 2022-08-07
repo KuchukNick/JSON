@@ -1,0 +1,860 @@
+{
+	"info": {
+		"_postman_id": "372ac4a0-9727-4b79-a372-0007a1b27e10",
+		"name": "Test Task - Nick KUchuk",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16970390"
+	},
+	"item": [
+		{
+			"name": "Создание записи Pet",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1230,\r\n  \"category\": {\r\n    \"id\": 123,\r\n    \"name\": \"КОТ\"\r\n  },\r\n  \"name\": \"Васька\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \"string\"\r\n    }\r\n  ],\r\n  \"status\": \"pending\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/pet",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"pet"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Создание записи Pet",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1230,\r\n  \"category\": {\r\n    \"id\": 123,\r\n    \"name\": \"КОТ\"\r\n  },\r\n  \"name\": \"Васька\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \"string\"\r\n    }\r\n  ],\r\n  \"status\": \"pending\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://petstore.swagger.io/v2/pet",
+							"protocol": "https",
+							"host": [
+								"petstore",
+								"swagger",
+								"io"
+							],
+							"path": [
+								"v2",
+								"pet"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 07 Aug 2022 11:49:54 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, DELETE, PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, api_key, Authorization"
+						},
+						{
+							"key": "Server",
+							"value": "Jetty(9.2.9.v20150224)"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 1230,\n    \"category\": {\n        \"id\": 123,\n        \"name\": \"КОТ\"\n    },\n    \"name\": \"Васька\",\n    \"photoUrls\": [\n        \"string\"\n    ],\n    \"tags\": [\n        {\n            \"id\": 0,\n            \"name\": \"string\"\n        }\n    ],\n    \"status\": \"pending\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Редактирование PET",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1230,\r\n  \"category\": {\r\n    \"id\": 123,\r\n    \"name\": \"КОТjgtc\"\r\n  },\r\n  \"name\": \"Rjn-Васька\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \"string\"\r\n    }\r\n  ],\r\n  \"status\": \"pending\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/pet",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"pet"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Редактирование PET",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1230,\r\n  \"category\": {\r\n    \"id\": 123,\r\n    \"name\": \"КОТjgtc\"\r\n  },\r\n  \"name\": \"Rjn-Васька\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \"string\"\r\n    }\r\n  ],\r\n  \"status\": \"pending\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://petstore.swagger.io/v2/pet",
+							"protocol": "https",
+							"host": [
+								"petstore",
+								"swagger",
+								"io"
+							],
+							"path": [
+								"v2",
+								"pet"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 07 Aug 2022 11:49:45 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, DELETE, PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, api_key, Authorization"
+						},
+						{
+							"key": "Server",
+							"value": "Jetty(9.2.9.v20150224)"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 1230,\n    \"category\": {\n        \"id\": 123,\n        \"name\": \"КОТjgtc\"\n    },\n    \"name\": \"Rjn-Васька\",\n    \"photoUrls\": [\n        \"string\"\n    ],\n    \"tags\": [\n        {\n            \"id\": 0,\n            \"name\": \"string\"\n        }\n    ],\n    \"status\": \"pending\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Получение PET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/pet/1230",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"pet",
+						"1230"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Получение PET",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://petstore.swagger.io/v2/pet/12",
+							"protocol": "https",
+							"host": [
+								"petstore",
+								"swagger",
+								"io"
+							],
+							"path": [
+								"v2",
+								"pet",
+								"12"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 07 Aug 2022 11:52:49 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, DELETE, PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, api_key, Authorization"
+						},
+						{
+							"key": "Server",
+							"value": "Jetty(9.2.9.v20150224)"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 12,\n    \"category\": {\n        \"id\": 23,\n        \"name\": \"insiderMBTest\"\n    },\n    \"name\": \"doga\",\n    \"photoUrls\": [\n        \"mbUrlPhoto\"\n    ],\n    \"tags\": [\n        {\n            \"id\": 1,\n            \"name\": \"evler\"\n        }\n    ],\n    \"status\": \"available\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Создание записи Store",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"id\": 12,\r\n  \"petId\": 1563,\r\n  \"quantity\": 1,\r\n  \"shipDate\": \"2022-06-29T19:51:14.993Z\",\r\n  \"status\": \"placed\",\r\n  \"complete\": false\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://petstore.swagger.io/v2/store/order/",
+					"protocol": "http",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"store",
+						"order",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Создание записи Store",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n \"id\": 12,\r\n  \"petId\": 1563,\r\n  \"quantity\": 1,\r\n  \"shipDate\": \"2022-06-29T19:51:14.993Z\",\r\n  \"status\": \"placed\",\r\n  \"complete\": false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://petstore.swagger.io/v2/store/order",
+							"protocol": "https",
+							"host": [
+								"petstore",
+								"swagger",
+								"io"
+							],
+							"path": [
+								"v2",
+								"store",
+								"order"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 07 Aug 2022 11:49:08 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, DELETE, PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, api_key, Authorization"
+						},
+						{
+							"key": "Server",
+							"value": "Jetty(9.2.9.v20150224)"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 12,\n    \"petId\": 1563,\n    \"quantity\": 1,\n    \"shipDate\": \"2022-06-29T19:51:14.993+0000\",\n    \"status\": \"placed\",\n    \"complete\": false\n}"
+				}
+			]
+		},
+		{
+			"name": "Получение Store Inventory",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/store/inventory",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"store",
+						"inventory"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Получение Store Inventory",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://petstore.swagger.io/v2/store/inventory",
+							"protocol": "https",
+							"host": [
+								"petstore",
+								"swagger",
+								"io"
+							],
+							"path": [
+								"v2",
+								"store",
+								"inventory"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 07 Aug 2022 11:48:45 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, DELETE, PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, api_key, Authorization"
+						},
+						{
+							"key": "Server",
+							"value": "Jetty(9.2.9.v20150224)"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \" \": 3,\n    \"sold\": 2,\n    \"string\": 451,\n    \"unavailable\": 7,\n    \"pending\": 14,\n    \"available\": 425,\n    \"FFFFFAAAA\": 1,\n    \"Unavailable\": 1,\n    \"avaliable\": 1,\n    \"availxxx\": 1,\n    \"checkavailable\": 3,\n    \"putavailable\": 6,\n    \"free\": 1,\n    \"FD\": 1,\n    \"status\": 55,\n    \"Not available\": 1\n}"
+				}
+			]
+		},
+		{
+			"name": "Создание User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\r\n    \"id\": 123,\r\n    \"username\": \"nfgmfgmstring\",\r\n    \"firstName\": \"bmvmmbxstring\",\r\n    \"lastName\": \"fhxdfhdfstring\",\r\n    \"email\": \"fhdfhdf@mail.tustring\",\r\n    \"password\": \"123124string\",\r\n    \"phone\": \"stbcvncring\",\r\n    \"userStatus\": 1\r\n  }\r\n  ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/user",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"user"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Создание User",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "  {\r\n    \"id\": 1234,\r\n    \"username\": \"NICK\",\r\n    \"firstName\": \"NICK\",\r\n    \"lastName\": \"TRUE\",\r\n    \"email\": \"___\",\r\n    \"password\": \"1234\",\r\n    \"phone\": \"stbcvncring\",\r\n    \"userStatus\": 1\r\n  }\r\n  ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://petstore.swagger.io/v2/user",
+							"protocol": "https",
+							"host": [
+								"petstore",
+								"swagger",
+								"io"
+							],
+							"path": [
+								"v2",
+								"user"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 07 Aug 2022 11:48:39 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, DELETE, PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, api_key, Authorization"
+						},
+						{
+							"key": "Server",
+							"value": "Jetty(9.2.9.v20150224)"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 200,\n    \"type\": \"unknown\",\n    \"message\": \"1234\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Получение USer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/pet/1230",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"pet",
+						"1230"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Получение USer",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://petstore.swagger.io/v2/user/NICK",
+							"protocol": "https",
+							"host": [
+								"petstore",
+								"swagger",
+								"io"
+							],
+							"path": [
+								"v2",
+								"user",
+								"NICK"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 07 Aug 2022 11:48:31 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, DELETE, PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, api_key, Authorization"
+						},
+						{
+							"key": "Server",
+							"value": "Jetty(9.2.9.v20150224)"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 1,\n    \"type\": \"error\",\n    \"message\": \"User not found\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Получение USer login",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/pet/1230",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"pet",
+						"1230"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Получение USer login",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://petstore.swagger.io/v2/user/login?username=Nick&password=123",
+							"protocol": "https",
+							"host": [
+								"petstore",
+								"swagger",
+								"io"
+							],
+							"path": [
+								"v2",
+								"user",
+								"login"
+							],
+							"query": [
+								{
+									"key": "username",
+									"value": "Nick"
+								},
+								{
+									"key": "password",
+									"value": "123"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 07 Aug 2022 11:48:15 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, DELETE, PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, api_key, Authorization"
+						},
+						{
+							"key": "X-Expires-After",
+							"value": "Sun Aug 07 12:48:15 UTC 2022"
+						},
+						{
+							"key": "X-Rate-Limit",
+							"value": "5000"
+						},
+						{
+							"key": "Server",
+							"value": "Jetty(9.2.9.v20150224)"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 200,\n    \"type\": \"unknown\",\n    \"message\": \"logged in user session:1659872895625\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Редактирование User",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\r\n    \"id\": 1234,\r\n    \"username\": \"NICK-v2\",\r\n    \"firstName\": \"NICK-V2\",\r\n    \"lastName\": \"False\",\r\n    \"email\": \"__@_\",\r\n    \"password\": \"1234\",\r\n    \"phone\": \"stbcvncring\",\r\n    \"userStatus\": 1\r\n  }\r\n  ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/user/NICK",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"user",
+						"NICK"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Редактирование User",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "  {\r\n    \"id\": 1234,\r\n    \"username\": \"NICK-v2\",\r\n    \"firstName\": \"NICK-V2\",\r\n    \"lastName\": \"False\",\r\n    \"email\": \"__@_\",\r\n    \"password\": \"1234\",\r\n    \"phone\": \"stbcvncring\",\r\n    \"userStatus\": 1\r\n  }\r\n  ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://petstore.swagger.io/v2/user/NICK",
+							"protocol": "https",
+							"host": [
+								"petstore",
+								"swagger",
+								"io"
+							],
+							"path": [
+								"v2",
+								"user",
+								"NICK"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 07 Aug 2022 09:31:12 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, DELETE, PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, api_key, Authorization"
+						},
+						{
+							"key": "Server",
+							"value": "Jetty(9.2.9.v20150224)"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 200,\n    \"type\": \"unknown\",\n    \"message\": \"1234\"\n}"
+				}
+			]
+		}
+	]
+}
